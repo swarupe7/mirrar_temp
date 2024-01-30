@@ -7,11 +7,7 @@ This React Weather App allows users to search for weather information in any cit
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
-- [API Key](#api-key)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -35,10 +31,34 @@ This React Weather App allows users to search for weather information in any cit
 
 ```
 
-# Installation 
 
- - git clone <repository-url>
- - cd <project-folder>
+## Installation and Setup
 
- - Install dependencies 
- - npm install 
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd BSE
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the application:
+
+   ```bash
+   npm start
+   
+   ```
+## Technologies used
+ 
+ - React
+ - Css
+ - Vercel
+ - Git
+ - HTML
+ 
+
