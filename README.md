@@ -38,7 +38,7 @@ This React Weather App allows users to search for weather information in any cit
 
    ```bash
    git clone <repository-url>
-   cd BSE
+   cd mirrar_temp
    ```
 
 2. Install dependencies:
