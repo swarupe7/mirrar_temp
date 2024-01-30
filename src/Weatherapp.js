@@ -57,7 +57,7 @@ const WeatherApp = () => {
       return totalTemperature / group.length;
     };
 
-    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.Weather_key}`)
       .then(response => {
         const data = response.data;
         
