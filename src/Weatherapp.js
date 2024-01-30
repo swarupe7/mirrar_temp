@@ -14,9 +14,9 @@ const WeatherApp = () => {
 
   const getWeatherInfo = () => {
     // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-    const apiKey = '';
+    const apiKey = 'bea64792551047ca67bb92297d8c3846';
 
-    axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${process.env.Weather_key}`)
+    axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`)
     .then(res=> {const data=res.data;
 
       const selectedForecast = [];
@@ -57,7 +57,7 @@ const WeatherApp = () => {
       return totalTemperature / group.length;
     };
 
-    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.Weather_key}`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
       .then(response => {
         const data = response.data;
         
