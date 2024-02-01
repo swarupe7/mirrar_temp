@@ -1,4 +1,4 @@
-# React Weather App
+# MIRRAR TEMP - React Weather App
 
 This React Weather App allows users to search for weather information in any city. It utilizes the OpenWeatherMap API to retrieve real-time weather data, including temperature, humidity, wind speed, and weather conditions.
 
